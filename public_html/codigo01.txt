@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link
+                rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+                integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+               crossorigin=""/>
+
+               <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+                integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin="">
+
+</script>
+<style>
+    
+    #mapid {
+        height: 1024px;
+    }
+</style>
+</head>
+<body>
+    
+    <div id="mapid">
+        
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+</script>
+
+
+
+
+
+
+////////////////////////// ajustar erros //////////////////////////////
+
+<style>
+    </style>
+</head>
+<body>
+    
+  
+var mapa = L.  mapa  ( 'mapa' , { centro: [ -29.710318, -55.525224 ] zoom: 16 }) ;
+L.tileLayer ( 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' ) .  addTo ( mapa) ) ;
+
+
+
+var geojson = [{
+    "tipo" : "Recurso",
+    "geometria" : {
+    "tipo" : "Ponto",
+    "coordenadas" : [ -29.710318, -55.525224 ]
+              } ,
+ "propriedades" : {
+     "Nome" : "Predio de inf",
+     "título" : "Predio de inf",
+     "imagem" : "foto01.jpeg",
+           }
+} , {
+        "tipo" : "Recurso",
+     "geometria" : {
+       "tipo" : "Ponto",
+       "coordenadas" : [-29.708617, -55.526239 ]
+           } ,
+"propriedades" : {
+         "Nome" : "Universidade",
+         "título" : "Universidade de iffar",
+         "imagem" : "foto02.jpg",
+                   }
+          }] ;
+
+        </body>
+
+        </html>
+        
+        </script>
+
+
+        </script>
+<style>
+    </style>
+</head>
+<body>
+          recursos do varLayer = novo L. GeoJSON(geojson,  {
+onEachFeature: função  ( recurso, marcador ) { 
+    marcador.  bindPopup ( "<ul><h3>" +recurso.  propriedades .  nome + " </h3><figure><img class='imgpop' src=" +recurso.  propriedades .  imagem + "></figura></ul>" ) ;
+        }
+ }) .
+
+ 
+</style>
+</head>
+<body>
+
+ addTo ( mapa ) ;
+
+ < estilo >
+    corpo {
+            preenchimento: 0 ;
+            aresta: 0 ;
+        }
+    html, corpo, #map {
+            altura: 100 %;
+        }
+    .folheto-popup-conteúdo {
+ preenchiment: 1px; 
+ fazenda: #f1b10e.
+            
+                    }
+    .folheto-popup-content-wrapper {
+ fazenda: #ebcb7a.
+                
+        }
+    .folheto-popup-dica {
+ fazenda: vermelho;
+        }
+    .imgpop {
+ comprimento: 150px;
+        }
+      
+< /estilo >
+
+</style>
+</head>
+
+
+
+/////////////////////
+
+
+const mymap = L.map('mapid').setView([-29.710318, -55.525224], 13)
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mymap)
+
+
+//////
+
+recursos varLayer = novo L.GeoJSON  ( geojson , {
+    onEachFeature: função  ( recurso, marcador ) { 
+    marcador.  bindPopup ( "<ul><h3>" +recurso.  propriedades .  nome + " </h3><figure><img class='imgpop' src=" +recurso.  propriedades .  imagem + "></figura><audio class='audiopop' controla a reprodução automática ><source src=" +recurso.  propriedades .  som + " type='audio/mpeg'></audio></ul>" ) ;
+        }
+ }) .  addTo ( mapa ) ;
+
+
+((((( <audio preload='metadata' autoplay controls loop muted> <audio src='./audio/audio01.mp3'></audio>)))))
+
+<head><title>audio</title></head>
+<body>
+<h1>audio</h1>
+<audio src='audio01'></audio>
+<button>Play</button>
+<script>
+const button = Document.querySelector('button')
+button.addEventListener('click',function(){
+    const=audio=Document.querySelector('audio')
+    audio.Play()
+    })
+    </script>
+    </body>
+    </html>
+
+
+
+
+
+///// 
